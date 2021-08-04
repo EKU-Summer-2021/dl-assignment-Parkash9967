@@ -2,7 +2,6 @@ import unittest
 import numpy as np
 from src import Polynomial
 
-
 class PolynomialTets(unittest.TestCase):
 
     def test_square_of_three_should_be_nince(self):
