@@ -9,8 +9,6 @@ coverage = '*'
 
 [packages]
 numpy = '*'
-mitdeeplearning = "*"
-jupyter = "*"
 
 [requires]
 python_version = "3.8"
