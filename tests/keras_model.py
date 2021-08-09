@@ -2,7 +2,7 @@
 Unit test module for Keras_model
 """
 import unittest
-
+from tensorflow import keras
 import keras.callbacks
 import pandas as pd
 from src.keras_model import KerasModel
