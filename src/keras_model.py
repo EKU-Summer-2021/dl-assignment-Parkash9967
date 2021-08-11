@@ -83,3 +83,4 @@ class KerasModel:
         plt.gca().set_ylim(0, 1)
         plt.savefig(file_location + ".png")
         plt.show()
+        return history

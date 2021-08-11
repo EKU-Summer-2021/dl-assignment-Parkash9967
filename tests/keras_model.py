@@ -27,3 +27,10 @@ class MyTestCase(unittest.TestCase):
         """
         get_results = self.data.grade_prediction_using_keras()
         self.assertIsInstance(get_results, tf.keras.callbacks.History)
+
+    def test_save_results(self):
+        """
+            here we check if this is an instance of Keras Library
+        """
+        get_results = self.data.save_results()
+        self.assertIsInstance(get_results, tf.keras.callbacks.History)
