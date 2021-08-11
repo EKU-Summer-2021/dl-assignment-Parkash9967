@@ -9,7 +9,8 @@ coverage = '*'
 
 [packages]
 numpy = '*'
-tensorflow = '*'
+tensorflow = '2.5'
+pandas = '*'
 
 [requires]
 python_version = "3.8"
