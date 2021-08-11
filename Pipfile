@@ -9,8 +9,13 @@ coverage = '*'
 
 [packages]
 numpy = '*'
-tensorflow = '2.5'
-pandas = '*'
+matplotlib = "*"
+tensorflow = "*"
+pandas = "*"
+scikit-learn = "*"
 
 [requires]
 python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
